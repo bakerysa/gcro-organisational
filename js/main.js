@@ -2,421 +2,487 @@ var nodes = [{
     id: "organisational",
     group: 0,
     label: "GCRO Organisational",
-    level: 1
+    level: 1,
+    color: "primary0",
   },
   {
     id: "thematic1",
     group: 1,
     label: "Rationalities of Government and Governance",
-    level: 2
+    level: 2,
+    color: "primary1",
   },
   {
     id: "thematic2",
     group: 2,
     label: "Landscapes in Transition",
-    level: 2
+    level: 2,
+    color: "primary2",
   },
   {
     id: "thematic3",
     group: 3,
     label: "Sustainability Transitions",
-    level: 2
+    level: 2,
+    color: "primary3",
   },
   {
     id: "thematic4",
     group: 4,
     label: "Changing Social Fabric",
-    level: 2
+    level: 2,
+    color: "primary4",
   },
   {
     id: "thematic5",
     group: 5,
     label: "New Regional Economies",
-    level: 2
+    level: 2,
+    color: "primary5",
   },
   {
     id: "thematic6",
     group: 6,
     label: "Histories and Futures of the GCR in Comparative Perpective",
-    level: 2
+    level: 2,
+    color: "primary6",
   },
   {
     id: "thematic7",
     group: 7,
     label: "Analytics, Cartographies, Visualisations",
-    level: 2
+    level: 2,
+    color: "primary7",
   },
   {
     id: "project1",
-    group: 1,
+    group: 2,
     label: "Conceiving, producing and managing a neighbourhood",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project2",
-    group: 1,
+    group: 6,
     label: "What is the GCR? (Seoul Biennale)",
-    level: 3
+    level: 3,
+    color: "secondary6",
   },
   {
     id: "project3",
-    group: 1,
+    group: 2,
     label: "Taking streets seriously",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project4",
-    group: 1,
+    group: 4,
     label: "Scale, belonging and exclusion in Gauteng",
-    level: 3
+    level: 3,
+    color: "secondary4",
   },
   {
     id: "project5",
-    group: 1,
+    group: 2,
     label: "Mothers in the City",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project6",
-    group: 1,
+    group: 7,
     label: "Quality of Life Survey",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project7",
-    group: 1,
+    group: 4,
     label: "Social Cohesion Champions",
-    level: 3
+    level: 3,
+    color: "secondary4",
   },
   {
     id: "project8",
-    group: 1,
+    group: 4,
     label: "CoJ Social Cohesion",
-    level: 3
+    level: 3,
+    color: "secondary4",
   },
   {
     id: "project9",
-    group: 1,
+    group: 4,
     label: "Post-apartheid social mixing",
-    level: 3
+    level: 3,
+    color: "secondary4",
   },
   {
     id: "project10",
-    group: 1,
+    group: 2,
     label: "Untangling Transport",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project11",
-    group: 1,
+    group: 3,
     label: "Green Assets and Infastructure",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project12",
-    group: 1,
+    group: 3,
     label: "Just urban sustainability transitions",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project13",
-    group: 1,
+    group: 2,
     label: "Political Economy of Corridors of Freedom",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project14",
-    group: 1,
+    group: 3,
     label: "Governing Pollution",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project15",
-    group: 1,
+    group: 4,
     label: "Poverty and inequality",
-    level: 3
+    level: 3,
+    color: "secondary4",
   },
   {
     id: "project16",
     group: 1,
     label: "State function in infastructure planning",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project17",
     group: 1,
     label: "Ethnographies of the state",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project18",
-    group: 1,
+    group: 3,
     label: "Water security",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project19",
     group: 1,
     label: "Governance Provocations",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project20",
-    group: 1,
+    group: 5,
     label: "Urban space economy",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project21",
-    group: 1,
+    group: 5,
     label: "Firm level survey (with RM)",
-    level: 3
-  },
-  {
-    id: "project22",
-    group: 1,
-    label: "Firm level survey (with RM)",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project23",
-    group: 1,
+    group: 6,
     label: "Futures of the GCR",
-    level: 3
+    level: 3,
+    color: "secondary6",
   },
   {
     id: "project24",
-    group: 1,
-    label: "Metabolic flows and infstructure transitions",
-    level: 3
+    group: 3,
+    label: "Metabolic flows and infastructure transitions",
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project25",
-    group: 1,
+    group: 3,
     label: "Green economy",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project26",
     group: 1,
     label: "City GCR seminar / GCR Citylab",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project27",
-    group: 1,
+    group: 2,
     label: "Gauteng Transport Centre for Excellence",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project28",
     group: 1,
     label: "Tech in Governance Learning Network",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project29",
-    group: 1,
+    group: 5,
     label: "Economic geography of the GCR",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project30",
-    group: 1,
+    group: 5,
     label: "Determinants of real estate demand",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project31",
-    group: 1,
+    group: 5,
     label: "Methods for regional economic analysis",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project32",
-    group: 1,
+    group: 2,
     label: "Qol spatial statistical modelling",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project33",
-    group: 1,
+    group: 5,
     label: "Modernisation and formalisation of township economies",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "project34",
     group: 1,
     label: "Street vendors in policy processes",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project35",
-    group: 1,
+    group: 7,
     label: "Geovisual analytics",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project36",
-    group: 1,
+    group: 2,
     label: "Peripheries and rural / urban transitions",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project37",
-    group: 1,
+    group: 2,
     label: "Zones of displaced urbanisation",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project38",
-    group: 1,
+    group: 2,
     label: "Spatial Imaginaries",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project39",
-    group: 1,
+    group: 2,
     label: "Building Gauteng",
-    level: 3
+    level: 3,
+    color: "secondary2",
   },
   {
     id: "project40",
     group: 1,
     label: "Knowledge partnerships for urban futures",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project41",
-    group: 1,
+    group: 3,
     label: "Governance of Pollution in the GCR Occassional paper",
-    level: 3
+    level: 3,
+    color: "secondary3",
   },
   {
     id: "project42",
-    group: 1,
+    group: 7,
     label: "Ward profile viewer",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project43",
-    group: 1,
+    group: 7,
     label: "Data smart GCR",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project44",
-    group: 1,
+    group: 7,
     label: "Qol Viewer",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project46",
-    group: 1,
+    group: 7,
     label: "Caring Cities Barometer",
-    level: 3
+    level: 3,
+    color: "secondary7",
   },
   {
     id: "project47",
     group: 1,
     label: "Metro form of government",
-    level: 3
+    level: 3,
+    color: "secondary1",
   },
   {
     id: "project48",
-    group: 1,
+    group: 5,
     label: "Firm level survey (with GG)",
-    level: 3
+    level: 3,
+    color: "secondary5",
   },
   {
     id: "staff1",
     label: "Aidan Mosselson",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff2",
     label: "Alexandra Parker",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff3",
     label: "Christian Hamann",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff4",
     label: "Christina Culwick",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff5",
     label: "Darlington Mushongera",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff6",
     label: "Gillian Maree",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff7",
     label: "Graeme Gotz",
-    level: 3
+    level: 3,
+    color: "staff",
   },
   {
     id: "staff8",
     label: "Jesse Harber",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff9",
     label: "Kate Joseph",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff10",
     label: "Koech Cheruiyot",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff11",
     label: "Mamokete Matjomane",
-    level: 3
+    level: 3,
+    color: "staff",
   },
   {
     id: "staff12",
     label: "Mncedisi Siteleki",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff13",
     label: "Ngaka Mosiane",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff14",
     label: "Richard Ballard",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff15",
     label: "Rob Moore",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff16",
     label: "Samkelisiwe Khanyile",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff17",
     label: "Samy Katumba",
-    level: 4
+    level: 4,
+    color: "staff",
   },
   {
     id: "staff18",
     label: "Thembani Mkhize",
-    level: 4
+    level: 4,
+    color: "staff",
   },
 ]
 
@@ -558,11 +624,6 @@ var links = [{
   {
     target: "thematic5",
     source: "project21",
-    strength: 0.1
-  },
-  {
-    target: "thematic5",
-    source: "project22",
     strength: 0.1
   },
   {
@@ -1140,14 +1201,71 @@ function isNeighborLink(node, link) {
 }
 
 
-function getNodeColor(node, neighbors) {
-  if (Array.isArray(neighbors) && neighbors.indexOf(node.id) > -1) {
-    return node.level === 1 ? 'white' : 'red'
+function getNodeColor(node) {
+  if (node.color === "primary0") {
+    return "#832a2a";
   }
-
-  return node.level === 1 ? '#832a2a' : '#9A9C99'
+  else if (node.color === "primary1") {
+    return "#cc5a31";
+  }
+  else if (node.color === "primary2") {
+    return "#2c7481";
+  }
+  else if (node.color === "primary3") {
+    return "#6e9c73";
+  }
+  else if (node.color === "primary4") {
+    return "#bb2927";
+  }
+  else if (node.color === "primary5") {
+    return "#70555d";
+  }
+  else if (node.color === "primary6") {
+    return "#3e5d92";
+  }
+  else if (node.color === "primary7") {
+    return "#c3a955";
+  }
+  else if (node.color === "secondary1") {
+    return "#ed8a73";
+  }
+  else if (node.color === "secondary2") {
+    return "#7abebf";
+  }
+  else if (node.color === "secondary3") {
+    return "#a3c9a7";
+  }
+  else if (node.color === "secondary4") {
+    return "#f07067";
+  }
+  else if (node.color === "secondary5") {
+    return "#b396a1";
+  }
+  else if (node.color === "secondary6") {
+    return "#6593b8";
+  }
+  else if (node.color === "secondary7") {
+    return "#dec478";
+  }
+  else if (node.color === "staff") {
+    return "#999c99";
+  }
 }
 
+function getNodeSize(node) {
+  if (node.level === 1) {
+    return 45;
+  }
+  else if (node.level === 2) {
+    return 35;
+  }
+  else if (node.level === 3) {
+    return 25;
+  }
+  else if (node.level === 4) {
+    return 15;
+  }
+}
 
 function getLinkColor(node, link) {
   return isNeighborLink(node, link) ? 'white' : 'red'
@@ -1212,7 +1330,7 @@ var nodeElements = svg.append("g")
   .selectAll("circle")
   .data(nodes)
   .enter().append("circle")
-    .attr("r", 20)
+    .attr("r", getNodeSize)
     .attr("fill", getNodeColor)
     .call(dragDrop)
     .on('click', selectNode)
@@ -1223,10 +1341,11 @@ var textElements = svg.append("g")
   .data(nodes)
   .enter().append("text")
     .text(function (node) { return  node.label })
-	  .attr("font-size", 15)
+	  .attr("font-size", 12)
 	  .attr("dx", 15)
     .attr("dy", 4)
-    .style('fill', 'white')
+    .style('fill', 'rgba(255,255,255,0.7)')
+    .style('font-family', 'Arial')
 
 simulation.nodes(nodes).on('tick', () => {
   nodeElements

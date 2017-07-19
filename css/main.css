@@ -1,4 +1,9 @@
+@import "//cloud.typography.com/83560/671406/css/fonts.css";
+
 body {
   background-color: #2C2C2C;
   color: white;
+  font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-style: normal;
+  font-weight: 300;
 }
