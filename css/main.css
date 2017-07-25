@@ -4,7 +4,7 @@ body {
   overflow: none;
   background-color: #2d2C2C;
   color: white;
-  font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family: "Sentinel SSm A"!important;
   font-style: normal;
   font-weight: 300;
   height: 100%;

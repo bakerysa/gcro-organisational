@@ -43,7 +43,7 @@ var nodes = [{
   {
     id: "thematic6",
     group: 6,
-    label: "Histories and Futures of the GCR in Comparative Perpective",
+    label: "Histories and Futures of the GCR in Comparative Perspective",
     level: 2,
     color: "primary6",
   },
@@ -127,7 +127,7 @@ var nodes = [{
   {
     id: "project11",
     group: 3,
-    label: "Green Assets and Infastructure",
+    label: "Green Assets and Infrastructure",
     level: 3,
     color: "secondary3",
   },
@@ -162,7 +162,7 @@ var nodes = [{
   {
     id: "project16",
     group: 1,
-    label: "State function in infastructure planning",
+    label: "State function in infrastructure planning",
     level: 3,
     color: "secondary1",
   },
@@ -197,7 +197,7 @@ var nodes = [{
   {
     id: "project21",
     group: 5,
-    label: "Firm level survey (with RM)",
+    label: "Firm level survey",
     level: 3,
     color: "secondary5",
   },
@@ -211,7 +211,7 @@ var nodes = [{
   {
     id: "project24",
     group: 3,
-    label: "Metabolic flows and infastructure transitions",
+    label: "Metabolic flows and infrastructure transitions",
     level: 3,
     color: "secondary3",
   },
@@ -330,7 +330,7 @@ var nodes = [{
   {
     id: "project41",
     group: 3,
-    label: "Governance of Pollution in the GCR Occassional paper",
+    label: "Governance of Pollution in the GCR Occasional paper",
     level: 3,
     color: "secondary3",
   },
@@ -368,13 +368,6 @@ var nodes = [{
     label: "Metro form of government",
     level: 3,
     color: "secondary1",
-  },
-  {
-    id: "project48",
-    group: 5,
-    label: "Firm level survey (with GG)",
-    level: 3,
-    color: "secondary5",
   },
   {
     id: "staff1",
@@ -484,1133 +477,1139 @@ var nodes = [{
     level: 4,
     color: "staff",
   },
-  // {
-  //   id: "discipline1",
-  //   label: "Urban Design",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline2",
-  //   label: "Urban Planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline3",
-  //   label: "Urban Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline4",
-  //   label: "Urban Metabolism",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline5",
-  //   label: "Urban and Regional Methods",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline6",
-  //   label: "Urban Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline7",
-  //   label: "Urban Governance",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline8",
-  //   label: "City-region studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline9",
-  //   label: "Regional studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline10",
-  //   label: "Regional development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline11",
-  //   label: "Real estate",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline12",
-  //   label: "Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline13",
-  //   label: "Transport/Mobility/ Transport geography/ Transport planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline14",
-  //   label: "Regional economics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline15",
-  //   label: "Economic Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline16",
-  //   label: "Political Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline17",
-  //   label: "Spatial economics/ econmetrics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline18",
-  //   label: "Spatial statistics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline19",
-  //   label: "Spatial modelling",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline20",
-  //   label: "Township economies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline21",
-  //   label: "Political economy",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline22",
-  //   label: "Economic Development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline23",
-  //   label: "Geoinformatics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline24",
-  //   label: "Government and development benchmarking",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline25",
-  //   label: "Political Science",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline26",
-  //   label: "Government Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline27",
-  //   label: "Local Government",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline28",
-  //   label: "Institutional studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline29",
-  //   label: "Organisational development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline30",
-  //   label: "Policy making",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline31",
-  //   label: "Economics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline32",
-  //   label: "Scenario/future studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline33",
-  //   label: "Global change studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline34",
-  //   label: "Sustainability",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline35",
-  //   label: "Environmental policy and practice",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline36",
-  //   label: "Conservation biogeography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline37",
-  //   label: "Biodiversity planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline38",
-  //   label: "Environmental governance",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline39",
-  //   label: "History",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline40",
-  //   label: "Migration",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline41",
-  //   label: "Human Rights",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline42",
-  //   label: "Critical Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline43",
-  //   label: "Critical diversity studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline44",
-  //   label: "Nation-building",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline45",
-  //   label: "Positionality and identity politics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline46",
-  //   label: "Gender Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline47",
-  //   label: "Identity Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline48",
-  //   label: "Race Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline49",
-  //   label: "Psychology",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline50",
-  //   label: "Education",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline51",
-  //   label: "Sociology of Policy",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline52",
-  //   label: "Sociology of organisations",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline53",
-  //   label: "Sociology of knowledge",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline54",
-  //   label: "Social Science",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline55",
-  //   label: "Statistics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline56",
-  //   label: "ICTs",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline57",
-  //   label: "Cluster analysis",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline58",
-  //   label: "GIS",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline59",
-  //   label: "Open source software",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline60",
-  //   label: "Web GIS",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline61",
-  //   label: "Water",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline62",
-  //   label: "Landscape ecology",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline63",
-  //   label: "Water resource management",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline64",
-  //   label: "Water security",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline65",
-  //   label: "Air quality",
-  //   level: 5,
-  //   color: "discipline",
-  // },
+  {
+    id: "discipline1",
+    label: "Urban Design",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline2",
+    label: "Urban Planning",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline3",
+    label: "Urban Studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline4",
+    label: "Urban Metabolism",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline5",
+    label: "Urban and Regional Methods",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline6",
+    label: "Urban Theory",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline7",
+    label: "Urban Governance",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline8",
+    label: "City-region studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline9",
+    label: "Regional studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline10",
+    label: "Regional development",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline11",
+    label: "Real estate",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline12",
+    label: "Geography",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline13",
+    label: "Transport/Mobility/ Transport geography/ Transport planning",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline14",
+    label: "Regional economics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline15",
+    label: "Economic Geography",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline16",
+    label: "Political Geography",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline17",
+    label: "Spatial economics/ econmetrics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline18",
+    label: "Spatial statistics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline19",
+    label: "Spatial modelling",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline20",
+    label: "Township economies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline21",
+    label: "Political economy",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline22",
+    label: "Economic Development",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline23",
+    label: "Geoinformatics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline24",
+    label: "Government and development benchmarking",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline25",
+    label: "Political Science",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline26",
+    label: "Government Theory",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline27",
+    label: "Local Government",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline28",
+    label: "Institutional studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline29",
+    label: "Organisational development",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline30",
+    label: "Policy making",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline31",
+    label: "Economics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline32",
+    label: "Scenario/future studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline33",
+    label: "Global change studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline34",
+    label: "Sustainability",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline35",
+    label: "Environmental policy and practice",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline36",
+    label: "Conservation biogeography",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline37",
+    label: "Biodiversity planning",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline38",
+    label: "Environmental governance",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline39",
+    label: "History",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline40",
+    label: "Migration",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline41",
+    label: "Human Rights",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline42",
+    label: "Critical Theory",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline43",
+    label: "Critical diversity studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline44",
+    label: "Nation-building",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline45",
+    label: "Positionality and identity politics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline46",
+    label: "Gender Studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline47",
+    label: "Identity Studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline48",
+    label: "Race Studies",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline49",
+    label: "Psychology",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline50",
+    label: "Education",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline51",
+    label: "Sociology of Policy",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline52",
+    label: "Sociology of organisations",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline53",
+    label: "Sociology of knowledge",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline54",
+    label: "Social Science",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline55",
+    label: "Statistics",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline56",
+    label: "ICTs",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline57",
+    label: "Cluster analysis",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline58",
+    label: "GIS",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline59",
+    label: "Open source software",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline60",
+    label: "Web GIS",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline61",
+    label: "Water",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline62",
+    label: "Landscape ecology",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline63",
+    label: "Water resource management",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline64",
+    label: "Water security",
+    level: 5,
+    color: "discipline",
+  },
+  {
+    id: "discipline65",
+    label: "Air quality",
+    level: 5,
+    color: "discipline",
+  },
 ]
 
 var links = [{
     target: "organisational",
     source: "thematic1",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "organisational",
     source: "thematic2",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "organisational",
     source: "thematic3",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "organisational",
     source: "thematic4",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "organisational",
     source: "thematic5",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "organisational",
     source: "thematic6",
-    strength: 0.1
+    strength: 0.01
   },
   {
     target: "organisational",
     source: "thematic7",
-    strength: 0.1
+    strength: 1
   },
   {
     target: "thematic2",
     source: "project1",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic6",
     source: "project2",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project3",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic4",
     source: "project4",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project5",
-    strength: 0.1
+    strength: 0.3
+  },
+  {
+    target: "thematic4",
+    source: "project6",
+    strength: 0.3,
+    stroke: "jotted"
   },
   {
     target: "thematic7",
     source: "project6",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic4",
     source: "project7",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic4",
     source: "project8",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic4",
     source: "project9",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project10",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project11",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project12",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project13",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project14",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic4",
     source: "project15",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project16",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project17",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project18",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project19",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project20",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project21",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic6",
     source: "project23",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project24",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project25",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project26",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project27",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project28",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project29",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project30",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project31",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project32",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project33",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project34",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic7",
     source: "project35",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project36",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project37",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project38",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic2",
     source: "project39",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project40",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
     source: "project41",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic3",
     source: "project42",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic7",
     source: "project43",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic7",
     source: "project44",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project46",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic1",
     source: "project47",
-    strength: 0.1
+    strength: 0.3
   },
   {
     target: "thematic5",
-    source: "project48",
-    strength: 0.1
+    source: "project21",
+    strength: 0.3
   },
   {
     target: "project1",
     source: "staff1",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff2",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project3",
     source: "staff2",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project4",
     source: "staff2",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project5",
     source: "staff2",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project6",
     source: "staff2",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project7",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project8",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project9",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project6",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project4",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff3",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project10",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project11",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project12",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project6",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project13",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project14",
     source: "staff4",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project15",
     source: "staff5",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project16",
     source: "staff5",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project17",
     source: "staff5",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project46",
     source: "staff5",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project18",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project11",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project19",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project3",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project14",
     source: "staff6",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project20",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project21",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project23",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project47",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project24",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project25",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project26",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project6",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project13",
     source: "staff7",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project19",
     source: "staff8",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project3",
     source: "staff8",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project13",
     source: "staff8",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project27",
     source: "staff8",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project28",
     source: "staff8",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project19",
     source: "staff9",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project3",
     source: "staff9",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project4",
     source: "staff9",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project7",
     source: "staff9",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project8",
     source: "staff9",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project29",
     source: "staff10",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project30",
     source: "staff10",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project31",
     source: "staff10",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project32",
     source: "staff10",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project33",
     source: "staff11",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project3",
     source: "staff11",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project34",
     source: "staff11",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project1",
     source: "staff11",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff12",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project35",
     source: "staff12",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project32",
     source: "staff12",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project36",
     source: "staff13",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project37",
     source: "staff13",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project19",
     source: "staff13",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project4",
     source: "staff13",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff13",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project38",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project9",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project39",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project4",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project7",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project8",
     source: "staff14",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project40",
     source: "staff15",
-    strength: 0.1
+    strength: 0.4
   },
   {
-    target: "project48",
+    target: "project21",
     source: "staff15",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project11",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project35",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project41",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project6",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project14",
     source: "staff16",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project42",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project43",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project35",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project44",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project32",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project2",
     source: "staff17",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project1",
     source: "staff18",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project19",
     source: "staff18",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "project8",
     source: "staff18",
-    strength: 0.1
+    strength: 0.4
   },
   {
     target: "thematic1",
     source: "project1",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic4",
     source: "project1",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic1",
     source: "project2",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic2",
     source: "project2",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic3",
     source: "project2",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic4",
     source: "project2",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
   {
     target: "thematic7",
     source: "project2",
-    strength: 0.1,
+    strength: 0.3,
     stroke: "jotted",
   },
 ]
@@ -1633,7 +1632,8 @@ function isNeighborLink(node, link) {
 }
 
 
-function getNodeColor(node) {
+
+function getNodeColor(node, neighbors) {
   if (node.color === "primary0") {
     return "#832a2a";
   }
@@ -1689,10 +1689,10 @@ function getNodeColor(node) {
 
 function getNodeSize(node) {
   if (node.level === 1) {
-    return 45;
+    return 65;
   }
   else if (node.level === 2) {
-    return 35;
+    return 45;
   }
   else if (node.level === 3) {
     return 25;
@@ -1706,7 +1706,7 @@ function getNodeSize(node) {
 }
 
 function getLinkColor(node, link) {
-  return isNeighborLink(node, link) ? 'white' : 'red'
+  return isNeighborLink(node, link) ? 'white' : '#454545'
 }
 
 function getTextColor(node, neighbors) {
@@ -1743,11 +1743,12 @@ var linkForce = d3
   .forceLink()
   .id(function (link) { return link.id })
   .strength(function (link) { return link.strength })
+  // .distance(function (link) { return link.distance })
 
 var simulation = d3
   .forceSimulation()
   .force('link', linkForce)
-  .force('charge', d3.forceManyBody().strength(-120))
+  .force('charge', d3.forceManyBody().strength(-1420))
   .force('center', d3.forceCenter(width / 2, height / 2))
 
 var dragDrop = d3.drag().on('start', function (node) {
@@ -1767,10 +1768,10 @@ var dragDrop = d3.drag().on('start', function (node) {
 
 function selectNode(selectedNode) {
   var neighbors = getNeighbors(selectedNode)
-
   // we modify the styles to highlight selected nodes
-  nodeElements.attr('fill', function (node) { return getNodeColor(node, neighbors) })
-  textElements.attr('fill', function (node) { return getTextColor(node, neighbors) })
+  console.log(neighbors);
+  nodeElements.attr('fill', function (node, neighbors) { return getNodeColor(node, neighbors) })
+  textElements.attr('fill', function (node, neighbors) { return getTextColor(node, neighbors) })
   linkElements.attr('stroke', function (link) { return getLinkColor(selectedNode, link) })
 }
 
@@ -1780,7 +1781,7 @@ var linkElements = svg.append("g")
   .data(links)
   .enter().append("line")
     .attr("stroke-width", 1)
-	  .attr("stroke", "#9A9C99")
+	  .attr("stroke", "#888")
     .attr("stroke-dasharray", function(node) {
       if (node.stroke === "jotted") {
         return "5,5";
@@ -1806,11 +1807,11 @@ var textElements = svg.append("g")
   .data(nodes)
   .enter().append("text")
     .text(function (node) { return  node.label })
-	  .attr("font-size", 12)
+	  .attr("font-size", 10)
 	  .attr("dx", 15)
     .attr("dy", 4)
     .style('fill', 'rgba(255,255,255,0.7)')
-    .style('font-family', "Ideal Sans SSm A")
+    // .style('font-family', "Ideal Sans SSm A")
 
 simulation.nodes(nodes).on('tick', () => {
   nodeElements
