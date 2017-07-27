@@ -1,11 +1,24 @@
-@import "//cloud.typography.com/83560/671406/css/fonts.css";
+/*@import "//cloud.typography.com/83560/671406/css/fonts.css";*/
+
+html {
+  overflow: hidden;
+}
 
 body {
+  margin: 0!important;
+  padding: 0!important;
   overflow: none;
   background-color: #2d2C2C;
   color: white;
-  font-family: "Sentinel SSm A"!important;
   font-style: normal;
   font-weight: 300;
   height: 100%;
+}
+
+text, circle {
+  cursor: pointer;
+}
+
+text {
+  max-width: 100px!important;
 }
