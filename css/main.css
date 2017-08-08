@@ -1,5 +1,37 @@
 /*@import "//cloud.typography.com/83560/671406/css/fonts.css";*/
 
+@font-face {
+	font-family: 'Ideal-Sans-Bold';
+	src: url('./fonts/IdealSans-Bold.eot');
+	src: url('./fonts/IdealSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/IdealSans-Bold.woff') format('woff'),
+		url('./fonts/IdealSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sentinel-Light';
+	src: url('./fonts/Sentinel-Light.eot');
+	src: url('./fonts/Sentinel-Light.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Sentinel-Light.woff') format('woff'),
+		url('./fonts/Sentinel-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sentinel-Bold';
+	src: url('./fonts/Sentinel-Bold.eot');
+	src: url('./fonts/Sentinel-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Sentinel-Bold.woff') format('woff'),
+		url('./fonts/Sentinel-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
 html {
   overflow: hidden;
 }
@@ -17,8 +49,4 @@ body {
 
 text, circle {
   cursor: pointer;
-}
-
-text {
-  max-width: 100px!important;
 }

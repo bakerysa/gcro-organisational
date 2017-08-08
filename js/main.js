@@ -10,63 +10,63 @@ var nodes = [{
   {
     id: "thematic1",
     group: 1,
-    label: "Rationalities of Government and Governance",
+    label: "Rationalities of government & governance",
     level: 2,
     color: "primary1",
   },
   {
     id: "thematic2",
     group: 2,
-    label: "Landscapes in Transition",
+    label: "Landscapes in transition",
     level: 2,
     color: "primary2",
   },
   {
     id: "thematic3",
     group: 3,
-    label: "Sustainability Transitions",
+    label: "Sustainability transitions",
     level: 2,
     color: "primary3",
   },
   {
     id: "thematic4",
     group: 4,
-    label: "Changing Social Fabric",
+    label: "Changing social fabric",
     level: 2,
     color: "primary4",
   },
   {
     id: "thematic5",
     group: 5,
-    label: "New Regional Economies",
+    label: "New regional economies",
     level: 2,
     color: "primary5",
   },
   {
     id: "thematic6",
     group: 6,
-    label: "Histories and Futures of the GCR in Comparative Perspective",
+    label: "Histories & futures",
     level: 2,
     color: "primary6",
   },
   {
     id: "thematic7",
     group: 7,
-    label: "Analytics, Cartographies, Visualisations",
+    label: "Analytics, cartographies, visualisations",
     level: 2,
     color: "primary7",
   },
   {
     id: "project1",
     group: 2,
-    label: "Conceiving, producing and managing a neighbourhood",
+    label: "Conceiving, producing & managing a neighbourhood",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project2",
     group: 6,
-    label: "What is the GCR? (Seoul Biennale)",
+    label: "What is the GCR?",
     level: 3,
     color: "secondary6",
   },
@@ -80,35 +80,35 @@ var nodes = [{
   {
     id: "project4",
     group: 4,
-    label: "Scale, belonging and exclusion in Gauteng",
+    label: "Scale, belonging & exclusion",
     level: 3,
     color: "secondary4",
   },
   {
     id: "project5",
     group: 2,
-    label: "Mothers in the City",
+    label: "Mothers in the city",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project6",
     group: 7,
-    label: "Quality of Life Survey",
+    label: "Quality of life survey",
     level: 3,
     color: "secondary7",
   },
   {
     id: "project7",
     group: 4,
-    label: "Social Cohesion Champions",
+    label: "Social cohesion champions",
     level: 3,
     color: "secondary4",
   },
   {
     id: "project8",
     group: 4,
-    label: "CoJ Social Cohesion",
+    label: "CoJ social cohesion",
     level: 3,
     color: "secondary4",
   },
@@ -122,14 +122,14 @@ var nodes = [{
   {
     id: "project10",
     group: 2,
-    label: "Untangling Transport",
+    label: "Untangling transport",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project11",
     group: 3,
-    label: "Green Assets and Infrastructure",
+    label: "Green assets & infrastructure",
     level: 3,
     color: "secondary3",
   },
@@ -143,21 +143,21 @@ var nodes = [{
   {
     id: "project13",
     group: 2,
-    label: "Political Economy of Corridors of Freedom",
+    label: "Political economy of corridors of freedom",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project14",
     group: 3,
-    label: "Governing Pollution",
+    label: "Governing pollution",
     level: 3,
     color: "secondary3",
   },
   {
     id: "project15",
     group: 4,
-    label: "Poverty and inequality",
+    label: "Poverty & inequality",
     level: 3,
     color: "secondary4",
   },
@@ -185,7 +185,7 @@ var nodes = [{
   {
     id: "project19",
     group: 1,
-    label: "Governance Provocations",
+    label: "Governance provocations",
     level: 3,
     color: "secondary1",
   },
@@ -213,7 +213,7 @@ var nodes = [{
   {
     id: "project24",
     group: 3,
-    label: "Metabolic flows and infrastructure transitions",
+    label: "Metabolic flows & infrastructure transitions",
     level: 3,
     color: "secondary3",
   },
@@ -227,28 +227,28 @@ var nodes = [{
   {
     id: "project26",
     group: 1,
-    label: "City GCR seminar / GCR Citylab",
+    label: "GCR city seminar",
     level: 3,
     color: "secondary1",
   },
   {
     id: "project27",
     group: 2,
-    label: "Gauteng Transport Centre for Excellence",
+    label: "Gauteng transport centre for excellence",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project28",
     group: 1,
-    label: "Tech in Governance Learning Network",
+    label: "Tech in governance learning network",
     level: 3,
     color: "secondary1",
   },
   {
     id: "project29",
     group: 5,
-    label: "Economic geography of the GCR",
+    label: "Economic geography",
     level: 3,
     color: "secondary5",
   },
@@ -269,14 +269,14 @@ var nodes = [{
   {
     id: "project32",
     group: 2,
-    label: "Qol spatial statistical modelling",
+    label: "QoL spatial statistical modelling",
     level: 3,
     color: "secondary2",
   },
   {
     id: "project33",
     group: 5,
-    label: "Modernisation and formalisation of township economies",
+    label: "Modernisation & formalisation of township economies",
     level: 3,
     color: "secondary5",
   },
@@ -297,7 +297,7 @@ var nodes = [{
   {
     id: "project36",
     group: 2,
-    label: "Peripheries and rural / urban transitions",
+    label: "Peripheries & rural / urban transitions",
     level: 3,
     color: "secondary2",
   },
@@ -311,7 +311,7 @@ var nodes = [{
   {
     id: "project38",
     group: 2,
-    label: "Spatial Imaginaries",
+    label: "Spatial imaginaries",
     level: 3,
     color: "secondary2",
   },
@@ -329,13 +329,6 @@ var nodes = [{
     level: 3,
     color: "secondary1",
   },
-  // {
-  //   id: "project41",
-  //   group: 3,
-  //   label: "Governance of Pollution in the GCR Occasional paper",
-  //   level: 3,
-  //   color: "secondary3",
-  // },
   {
     id: "project42",
     group: 7,
@@ -353,14 +346,14 @@ var nodes = [{
   {
     id: "project44",
     group: 7,
-    label: "Qol Viewer",
+    label: "QoL Viewer",
     level: 3,
     color: "secondary7",
   },
   {
     id: "project46",
     group: 7,
-    label: "Caring Cities Barometer",
+    label: "Caring cities barometer",
     level: 3,
     color: "secondary7",
   },
@@ -409,7 +402,7 @@ var nodes = [{
   },
   {
     id: "staff7",
-    label: "Graeme Gotz",
+    label: "Graeme Götz",
     level: 4,
     color: "staff",
   },
@@ -478,403 +471,7 @@ var nodes = [{
     label: "Thembani Mkhize",
     level: 4,
     color: "staff",
-  },
-  // {
-  //   id: "discipline1",
-  //   label: "Urban Design",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline2",
-  //   label: "Urban Planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline3",
-  //   label: "Urban Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline4",
-  //   label: "Urban Metabolism",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline5",
-  //   label: "Urban and Regional Methods",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline6",
-  //   label: "Urban Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline7",
-  //   label: "Urban Governance",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline8",
-  //   label: "City-region studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline9",
-  //   label: "Regional studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline10",
-  //   label: "Regional development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline11",
-  //   label: "Real estate",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline12",
-  //   label: "Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline13",
-  //   label: "Transport/Mobility/ Transport geography/ Transport planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline14",
-  //   label: "Regional economics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline15",
-  //   label: "Economic Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline16",
-  //   label: "Political Geography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline17",
-  //   label: "Spatial economics/ econmetrics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline18",
-  //   label: "Spatial statistics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline19",
-  //   label: "Spatial modelling",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline20",
-  //   label: "Township economies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline21",
-  //   label: "Political economy",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline22",
-  //   label: "Economic Development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline23",
-  //   label: "Geoinformatics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline24",
-  //   label: "Government and development benchmarking",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline25",
-  //   label: "Political Science",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline26",
-  //   label: "Government Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline27",
-  //   label: "Local Government",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline28",
-  //   label: "Institutional studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline29",
-  //   label: "Organisational development",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline30",
-  //   label: "Policy making",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline31",
-  //   label: "Economics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline32",
-  //   label: "Scenario/future studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline33",
-  //   label: "Global change studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline34",
-  //   label: "Sustainability",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline35",
-  //   label: "Environmental policy and practice",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline36",
-  //   label: "Conservation biogeography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline37",
-  //   label: "Biodiversity planning",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline38",
-  //   label: "Environmental governance",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline39",
-  //   label: "History",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline40",
-  //   label: "Migration",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline41",
-  //   label: "Human Rights",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline42",
-  //   label: "Critical Theory",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline43",
-  //   label: "Critical diversity studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline44",
-  //   label: "Nation-building",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline45",
-  //   label: "Positionality and identity politics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline46",
-  //   label: "Gender Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline47",
-  //   label: "Identity Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline48",
-  //   label: "Race Studies",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline49",
-  //   label: "Psychology",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline50",
-  //   label: "Education",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline51",
-  //   label: "Sociology of Policy",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline52",
-  //   label: "Sociology of organisations",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline53",
-  //   label: "Sociology of knowledge",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline54",
-  //   label: "Social Science",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline55",
-  //   label: "Statistics",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline56",
-  //   label: "ICTs",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline57",
-  //   label: "Cluster analysis",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline58",
-  //   label: "GIS",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline59",
-  //   label: "Open source software",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline60",
-  //   label: "Web GIS",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline61",
-  //   label: "Water",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline62",
-  //   label: "Landscape ecology",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline63",
-  //   label: "Water resource management",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline64",
-  //   label: "Water security",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline65",
-  //   label: "Air quality",
-  //   level: 5,
-  //   color: "discipline",
-  // },
-  // {
-  //   id: "discipline66",
-  //   label: "Institutional ethnography",
-  //   level: 5,
-  //   color: "discipline",
-  // },
+  }
 ]
 
 var links = [{
@@ -2844,8 +2441,6 @@ function selectNode(selectedNode) {
   nodeElements.attr('fill', function (node, neighbors) { return getNodeColor(node, neighbors) })
 }
 
-
-
 var linkElements = svg.append("g")
   .attr("class", "links")
   .selectAll("line")
@@ -2895,7 +2490,8 @@ var textElements = svg.append("g")
   .attr("class", "texts")
   .selectAll("text")
   .data(nodes)
-  .enter().append("text")
+  .enter()
+  .append("text")
   .text(function (node) {
     return node.label
   })
@@ -2923,11 +2519,11 @@ var textElements = svg.append("g")
     })
     .style('font-family', function(node){
       if (node.level === 2) {
-        return "Ideal Sans SSm A";
+        return "Ideal-Sans-Bold";
       } else if (node.level === 3) {
-        return "Sentinel SSm A";
+        return "Sentinel-Bold";
       } else if (node.level === 4) {
-        return "Sentinel SSm A";
+        return "Sentinel-Light";
       }
     })
     .on('click', selectNode)
