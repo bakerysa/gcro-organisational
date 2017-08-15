@@ -746,6 +746,12 @@ var links = [{
     strength: 0.3
   },
   {
+    target: "thematic2",
+    source: "staff1",
+    strength: 0.4,
+    opacity: "yes"
+  },
+  {
     target: "project1",
     source: "staff1",
     strength: 0.4
@@ -2461,6 +2467,11 @@ var linkElements = svg.append("g")
         return "5,5";
       }
       else {
+        return "0";
+      }
+    })
+    .attr("opacity", function(node) {
+      if (node.opacity === "yes") {
         return "0";
       }
     })
