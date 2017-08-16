@@ -73,28 +73,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/img\/gcro.png": {
-		"ft": 32768,
-		"iS": 14033,
-		"oA": 0,
-		"oAP": "\/img\/gcro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/staff.png": {
-		"ft": 32768,
-		"iS": 10342,
-		"oA": 0,
-		"oAP": "\/img\/staff.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
