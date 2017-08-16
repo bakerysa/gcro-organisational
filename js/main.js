@@ -2537,6 +2537,7 @@ var textElements = svg.append("g")
         return "Sentinel-Light";
       }
     })
+    .call(dragDrop)
     .on('click', selectNode)
 
 simulation.nodes(nodes).on('tick', () => {
