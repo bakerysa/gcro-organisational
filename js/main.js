@@ -2540,6 +2540,8 @@ var textElements = svg.append("g")
     .call(dragDrop)
     .on('click', selectNode)
 
+
+
 simulation.nodes(nodes).on('tick', () => {
   nodeElements
     .attr('cx', function (node) { return node.x })
@@ -2569,6 +2571,5 @@ function updateGraph() {
 simulation.force("link").links(links)
 
 // updateGraph();
-
 
 }); // end document ready

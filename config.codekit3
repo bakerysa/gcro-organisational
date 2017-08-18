@@ -63,6 +63,16 @@
 		"oAP": "\/css\/fonts\/Sentinel-Light.woff",
 		"oF": 0
 		},
+	"\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -72,6 +82,34 @@
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/img\/gcro.png": {
+		"ft": 32768,
+		"iS": 10752,
+		"oA": 0,
+		"oAP": "\/img\/gcro.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/screensaver.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/screensaver.mp4",
+		"oF": 0
+		},
+	"\/img\/staff.png": {
+		"ft": 32768,
+		"iS": 5247,
+		"oA": 0,
+		"oAP": "\/img\/staff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -111,6 +149,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/webScreenSaver.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/webScreenSaver.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
