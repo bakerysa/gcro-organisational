@@ -2572,4 +2572,17 @@ simulation.force("link").links(links)
 
 // updateGraph();
 
+
+// redirect after time has passed
+
+$(document).inactivityTimeout({
+    inactivityWait: 180,
+    dialogWait: 3,
+		dialogBorderColor : '#FFFFFF',
+		dialogBackgroundColor: '#2d2c2c',
+		dialogFontSize : '22px',
+    logoutUrl: '../',
+		dialogMessage : 'Redirecting due to inactivity in %s seconds ',
+})
+
 }); // end document ready

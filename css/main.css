@@ -50,3 +50,22 @@ body {
 text, circle {
   cursor: pointer;
 }
+
+.home-container {
+	position: fixed;
+	top: 20px;
+	height: 43px;
+	left: 20px;
+	width: 115px;
+	background: #2d2C2C;
+	z-index: 1;
+}
+
+.home-container img {
+	width: 100%;
+}
+
+#inactivity-notifier div {
+	padding: 27px!important;
+	font-family: 'Sentinel-Light'!important;
+}
