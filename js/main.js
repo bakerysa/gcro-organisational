@@ -2576,12 +2576,12 @@ simulation.force("link").links(links)
 // redirect after time has passed
 
 $(document).inactivityTimeout({
-    inactivityWait: 180,
+    inactivityWait: 1,
     dialogWait: 3,
 		dialogBorderColor : '#FFFFFF',
 		dialogBackgroundColor: '#2d2c2c',
 		dialogFontSize : '22px',
-    logoutUrl: '../',
+    logoutUrl: '../index.html',
 		dialogMessage : 'Redirecting due to inactivity in %s seconds ',
 })
 
